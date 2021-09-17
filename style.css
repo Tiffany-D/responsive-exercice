@@ -1,0 +1,17 @@
+@media (max-width: 410px){
+    body{
+        background-color: #FF4848;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-color: #80ED99;
+    }
+}
+
+@media(min-width: 768px){
+    body{
+        background-color: #3E00FF;
+    }
+}
