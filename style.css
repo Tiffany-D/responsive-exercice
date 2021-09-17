@@ -2,16 +2,44 @@
     body{
         background-color: #FF4848;
     }
+    h1{
+        font-size: 15px;
+    }
+    p{
+       text-align: justify; 
+    }
+  
 }
 
-@media (max-width: 768px){
+@media (min-width: 410px) and (max-width: 768px){
     body{
         background-color: #80ED99;
     }
+     h1{
+        font-size: 15px;
+    }
+    p{
+       text-align: justify; 
+    }
+    #small{
+        width: 66%;
+    }
+    #medium{
+        width: 33%;
+    }
+    #large{
+        width: 100%;
+    }
+  
 }
 
-@media(min-width: 768px){
-    body{
-        background-color: #3E00FF;
+@media (min-width: 768px){
+    body {
+background-color: #77ACF1;
     }
+  div{
+      display: grid;
+  }
+   
 }
+
